@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 88, 182);
+    display: flex;
+}
+#p1{
+    height: 100%;
+    width:26%;
+    /*background-color:red ;*/
+}
+#p2{
+    height: 100%;
+    width:67%;
+    /*background-color:aqua;*/
+    background-image: url(musashi.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#p3{
+    height: 100%;
+    width:7%;
+    background-color: rgb(141, 103, 190);
+}
+#overlay{
+    height: 100%;
+    width:100%;
+    background-color: #77727248;
+}
+#text{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    /*background-color: blue;*/
+    left: 20%;
+    letter-spacing: 1rem;
+    top: 70%;
+    transform: translate(0,-50%);
+}
+#text h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    z-index: 9;
+}
+#small{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    background-image: url(m2.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#over2{
+    height: 100%;
+    width:100%;
+    background-color: #4d23406c;
+}
+#v{
+    position: absolute;
+    right: -65%;
+    z-index: 10;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+}
+#v h1{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 1rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    color: #ffffffb2;
+    justify-content: space-between;
+    align-items: center;
+    left:22%;
+    top:22%;
+}
+#text1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #141414c4;
+    position: relative;
+    letter-spacing: 10px;
+}
